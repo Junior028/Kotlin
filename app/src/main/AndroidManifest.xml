@@ -14,9 +14,11 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".FormularioYSQL"
+            android:exported="true" />
+        <activity
             android:name=".MostrarHobbies"
             android:exported="true" />
-
         <activity
             android:name=".ResultActivity"
             android:exported="true" />
